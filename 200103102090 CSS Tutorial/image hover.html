@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover </title>
+    <style>
+
+        #img{
+            width: 300px ;
+            height: 300px;
+            margin: auto;
+            display: block;
+            transition-property: background-color;
+            transition-duration: 5s;
+            transition-timing-function: ease;
+
+        }
+        #img:hover{
+            background-color: rgb(211, 159, 159);
+            width: 600px ;
+            height: 600px ;
+            border-radius: 50px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="contanier">
+        <h1>This is Image hover property</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias esse corporis autem aspernatur, possimus repellendus minima qui cupiditate beatae! Est laborum dolores eum nemo.</p>
+        <img id="img"src="/images/img.webp" alt="images icon">
+    </div>
+    
+</body>
+</html>
