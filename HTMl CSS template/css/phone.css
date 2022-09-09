@@ -1,0 +1,6 @@
+/*  services -section  */
+.services{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
